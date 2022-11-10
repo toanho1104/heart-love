@@ -83,6 +83,6 @@ window.addEventListener("resize", onWindowResize, false);
 requestAnimationFrame(render);
 
 const loader = new THREE.TextureLoader();
-loader.load("./background2.jpg", function (texture) {
+loader.load("./background.jpg", function (texture) {
   scene.background = texture;
 });
