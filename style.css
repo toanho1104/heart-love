@@ -27,6 +27,7 @@ svg {
   border-width: 3px;
   border-color: antiquewhite;
   border-style: solid;
+  /* contain: content; */
 
 }
 .container{
@@ -38,6 +39,7 @@ z-index: 1000;
 justify-content: center;
 align-items: center;
 display: flex
+
 
 
 }

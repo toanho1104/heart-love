@@ -43,7 +43,8 @@ for (let i = 0; i < length; i += 0.1) {
 }
 const geometry = new THREE.BufferGeometry().setFromPoints(vertices);
 const material = new THREE.PointsMaterial({
-  color: 0xee5282,
+  // color: 0xee5282,
+  color: 0xffffff,
   blending: THREE.AdditiveBlending,
   size: 3,
 });
@@ -82,6 +83,6 @@ window.addEventListener("resize", onWindowResize, false);
 requestAnimationFrame(render);
 
 const loader = new THREE.TextureLoader();
-loader.load("./background.jpg", function (texture) {
+loader.load("./background2.jpg", function (texture) {
   scene.background = texture;
 });
